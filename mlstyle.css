@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300&display=swap');
+:root{
+    --primary-color:rgb(3, 186, 247);
+    --secondary-color:#ffffff;
+    --font:'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    box-sizing: border-box;
+}
+.btn{
+    margin-left: 300px;
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    list-style: none;
+    background-color : transparent;
+    padding: 1.5rem 2rem;
+    outline:none;
+    border-radius: 3px;
+    
+}
+
+.btn:hover {
+    color: #001F3F;
+    background-color: #5992e8;
+}
+.secondary-color{
+    color:var(--secondary-color);
+    font-size: 50px;
+    font-weight: 500;
+}
+body{
+    background-color: #041F44;
+}
+header{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    margin-top: 0%;
+    z-index: 2;
+    
+}
+.main{
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: 10;
+    display: flex;
+    margin-left: 40px;
+}
+.nav-menu{
+    display: flex;
+    
+    list-style: none;
+    margin-left: 120px;
+    margin-right:340px;
+    z-index: 2;
+}
+.nav-menu a{ 
+    margin: 30px 1rem;
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 18px;
+    z-index: 2;
+    transition: .3s;
+    text-transform: uppercase;
+    text-decoration: underline transparent;
+}
+.nav-menu a:hover{
+    text-decoration-color: var(--secondary-color);
+}
+.intro-section{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.intro-section .intro-content{
+    width: 50%;
+    position:relative;
+}
+.intro-section .intro-content img{
+    width: 1518px;
+    height: 710px;
+}
+.intro-section .intro-content .intro-text{
+    position:absolute;
+    top: 18%;
+    left: 10%;
+    z-index: 2;
+    width: 750px;
+    color: var(--secondary-color);
+    
+}
+.intro-text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.intro-content h3{
+    width: 580px;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 250;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+     margin-left: 130px;
+}
+.intro-text .primary-color{
+    font-size: 60px;
+    font-weight: 600;
+    left:30%;
+    -webkit-text-stroke: 1px #0fa0f5;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+}
+.about-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.about-section .about-content{
+    width: 50%;
+    position:relative;
+}
+.about-section .about-content img{
+    width: 1518px;
+    height: 700px;
+}
+.about-section .about-content .about-text{
+    position:absolute;
+    top: 40%;
+    left: 25%;
+    z-index: 2;
+    width: 700px;
+    color: var(--secondary-color);
+    
+}
+.about-text h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 350;
+}
+.about-content h3{
+    width: 650px;
+    display: block;
+    top:50%;
+    margin-left: 15px;
+     
+    font-size: 20px;
+    font-weight: 250;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+}
+.about-content .primary-color{
+    font-size: 50px;
+    font-weight: 500;
+    left:40%;
+    -webkit-text-stroke: 1px #0fa0f5;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+}
+.contact-section{
+    background-repeat: no-repeat;
+    background-position:top bottom left right;
+    background-attachment: fixed;
+}
+.contact-section .contact-content{
+    width:1100px;  
+    position:relative;
+    text-align: center;
+}
+.contact-section .contact-content img{
+    width: 1518px;
+    height: 710px;
+}
+.contact-section .contact-content .contact-text{
+    position:absolute;
+    top: 2%;
+
+    left: 35%;
+    z-index: 2;
+    width: 750px;
+    color: var(--secondary-color);
+    
+}
+.contact-text h2{
+ 
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 350;
+}
+
+.contact-content .primary-color{
+    font-size: 70px;
+    font-weight: 500;
+    left:60%;
+ 
+    -webkit-text-stroke: 1px #0fa0f5;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+}
+.contact-content .contact-text .container .form-heading{
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 150;
+    
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+    border-bottom:solid 1px #ffffff;
+}
+.contact-content .contact-text .container{
+    width: 1100px;
+    
+    max-width: 500px;
+    background: rgba(153, 215, 246, 0.324);
+    padding: 28px;
+    margin: 40px 90px;
+    border: solid 3px white;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+.main-user-info{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.user-input-box input{
+    height: 35px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+
+}
+.form-submit-btn input{
+    cursor: pointer;
+}
+.form-submit-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color:#fbfbfb; 
+    background: #041F44;
+}
+.form-submit-btn input:hover{
+    background-color: #3f7ae0;
+    color: #041F44;
+}
+
+.contact-section .footer{
+    margin-bottom: 5px;
+    top:94%;
+    position:absolute;
+    margin-left: 500px;
+    z-index: 2;
+    
+    color: var(--secondary-color);
+}
+.contact-section .footer .footer-text p{
+    font-size: 18px;
+    
+}
+@media only screen and (max-width:700px) {
+    body{
+        background-color: #041F44;
+    }
+    .secondary-color{
+        color:var(--secondary-color);
+        font-size: 12px;
+        font-weight: 200;
+    }
+    header{
+        position: absolute;
+        width: 100%;
+        height: 120px;
+        
+        margin-top: 0%;
+        
+        
+    }
+    .main{
+        color: var(--primary-color);
+        font-size: 9px;
+        font-weight: 100;
+        z-index: 2;
+        margin-left: 10px;
+    }
+    .nav-menu{
+        display: flex;
+        align-items:flex-start;
+        list-style: none;
+        margin-left: 120px;
+        margin-right:340px;
+        z-index: 2;
+    }
+    .nav-menu a{ 
+        margin: 30px 1rem;
+        color: var(--secondary-color);
+        font-weight: 300;
+        font-size: 8px;
+        z-index: 2;
+        transition: .3s;
+        text-transform: uppercase;
+        text-decoration: underline transparent;
+    }
+    .nav-menu a:hover{
+        text-decoration-color: var(--secondary-color);
+    }
+    .intro-section{
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        background-attachment: fixed;
+    }
+    .intro-section .intro-content{
+        width: 50%;
+        position:relative;
+    }
+    
+    .intro-section .intro-content img{
+        width: 650px;
+        height: 540px;
+    }
+    .intro-section .intro-content .intro-text{
+        position:absolute;
+        top: 18%;
+        left: 10%;
+        z-index: 2;
+        width: 500px;
+        color: var(--secondary-color);
+        
+    }
+    .intro-text h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 200;
+    }
+    .intro-content h3{
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 150;
+        letter-spacing: 1px;
+        margin-bottom: 3rem;
+         margin-left: 130px;
+    }
+    .intro-text .primary-color{
+        font-size: 27px;
+        font-weight: 300;
+        left:30%;
+        -webkit-text-stroke: 1px #0fa0f5;
+        -webkit-text-fill-color: transparent;
+        line-height: 1.2;
+    }
+}
